@@ -1,0 +1,4 @@
+[   24.886980] type=1400 audit(1366918893.541:21): apparmor="STATUS" operation="profile_load" name="/usr/bin/evince-thumbnailer//sanitized_helper" pid=765 comm="apparmor_parser"
+[   27.126607] init: plymouth-stop pre-start process (1236) terminated with status 1
+[  323.483778] Guess again!
+[  323.484349] 42 is my favorite number!

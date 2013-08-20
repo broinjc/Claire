@@ -1,0 +1,80 @@
+                     _                
+  _ __ ___  __ _  __| |_ __ ___   ___ 
+ | '__/ _ \/ _` |/ _` | '_ ` _ \ / _ \
+ | | |  __/ (_| | (_| | | | | | |  __/
+ |_|  \___|\__,_|\__,_|_| |_| |_|\___|
+                                      
+
+
+Nathan Nichols
+
+
+Source Files
+==================================================================
+
+The only source files:
+
+							claire.c
+
+Extra Credit
+==================================================================
+
+What other signal has this property?
+-- 17 SIGSTOP stop (cannot be caught or ignored)
+
+Which manpage has this information?
+-- signal(2)
+
+-- Parsing implemented (+5 pts)
+
+
+Compilation instructions
+==================================================================
+
+In the directory of the source files type
+
+	make
+
+
+Overview of work accomplished
+==================================================================
+
+I wrote code for a shell little program! I also compiled the linux
+kernel and added a syscall for Project 1. Yay!
+
+
+
+Description of code and code layout
+==================================================================
+
+My code is laid out with a sigHandler and a loop which parses
+and executes input. nosigAlrm is a flipping bit that saves state
+for outputting correct messages regarding kill. I named my shell 
+after my new daughter. She will be born at the end of May!
+
+"Dirty diaper eradicated!" = process killed
+"Diaper change failed! Baby is crying." = process escapes
+
+
+General comments and anything that can help us grade your code
+==================================================================
+
+Please do not grade me down for including string library. I only
+used it to add on the extra feature of exiting gracefully when
+the user types "exit".
+
+
+Hours spent & level of effort required
+==================================================================
+
+I spent 20+ hours on this project. It required a lot of effort.
+	
+	* Understanding the guidelines
+	* Reading the man pages
+	* Writing and testing code
+	* Checking correctness
+	* Refactoring
+
+
+
+
